@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/akshat/maze_ws/src/maze_robot/src/maze_robot/meshes": No such file
+  or directory.
+
+[0m

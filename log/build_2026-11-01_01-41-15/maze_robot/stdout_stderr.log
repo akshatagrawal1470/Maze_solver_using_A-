@@ -1,0 +1,62 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found ros_gz_sim: 1.0.24 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/akshat/maze_ws/build/maze_robot
+-- Install configuration: ""
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch/spawn.launch.py
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch/solve_maze.launch.py
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch/rviz.launch.py
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch/slam.launch.py
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/urdf
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/urdf/maze_robot.urdf.xacro
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/worlds
+-- Up-to-date: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/worlds/maze_world.sdf
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/config
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/config/maze_params.yaml
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/config/slam_params.yaml
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/rviz
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/rviz/maze_view.rviz
+-- Installing: /home/akshat/maze_ws/install/maze_robot/lib/maze_robot/maze_solver.py
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/ament_index/resource_index/package_run_dependencies/maze_robot
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/ament_index/resource_index/parent_prefix_path/maze_robot
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/environment/ament_prefix_path.sh
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/environment/path.sh
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/environment/path.dsv
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/local_setup.bash
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/local_setup.sh
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/local_setup.zsh
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/local_setup.dsv
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/package.dsv
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/ament_index/resource_index/packages/maze_robot
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/cmake/maze_robotConfig.cmake
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/cmake/maze_robotConfig-version.cmake
+-- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/package.xml

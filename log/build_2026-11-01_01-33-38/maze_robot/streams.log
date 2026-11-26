@@ -1,0 +1,53 @@
+[0.006s] Invoking command in '/home/akshat/maze_ws/build/maze_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/bot_ws/install/bot_script:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akshat/maze_ws/src/maze_robot/src/maze_robot -DCMAKE_INSTALL_PREFIX=/home/akshat/maze_ws/install/maze_robot
+[0.192s] -- The C compiler identification is GNU 13.3.0
+[0.657s] -- The CXX compiler identification is GNU 13.3.0
+[1.021s] -- Detecting C compiler ABI info
+[1.178s] -- Detecting C compiler ABI info - done
+[1.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.184s] -- Detecting C compile features
+[1.185s] -- Detecting C compile features - done
+[1.243s] -- Detecting CXX compiler ABI info
+[1.404s] -- Detecting CXX compiler ABI info - done
+[1.409s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.410s] -- Detecting CXX compile features
+[1.410s] -- Detecting CXX compile features - done
+[1.420s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.525s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.628s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.739s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.749s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.775s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.831s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.834s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.891s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.015s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.080s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.206s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.231s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.247s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.265s] -- Found ros_gz_sim: 1.0.24 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[2.426s] -- Configuring done (2.4s)
+[2.430s] -- Generating done (0.0s)
+[2.432s] -- Build files have been written to: /home/akshat/maze_ws/build/maze_robot
+[2.438s] Invoked command in '/home/akshat/maze_ws/build/maze_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/bot_ws/install/bot_script:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/akshat/maze_ws/src/maze_robot/src/maze_robot -DCMAKE_INSTALL_PREFIX=/home/akshat/maze_ws/install/maze_robot
+[2.439s] Invoking command in '/home/akshat/maze_ws/build/maze_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/bot_ws/install/bot_script:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akshat/maze_ws/build/maze_robot -- -j16 -l16
+[2.465s] Invoked command in '/home/akshat/maze_ws/build/maze_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/bot_ws/install/bot_script:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/akshat/maze_ws/build/maze_robot -- -j16 -l16
+[2.471s] Invoking command in '/home/akshat/maze_ws/build/maze_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/bot_ws/install/bot_script:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akshat/maze_ws/build/maze_robot
+[2.476s] -- Install configuration: ""
+[2.476s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch
+[2.477s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch/spawn.launch.py
+[2.477s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch/solve_maze.launch.py
+[2.477s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch/rviz.launch.py
+[2.477s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/launch/slam.launch.py
+[2.477s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/urdf
+[2.477s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/urdf/maze_robot.urdf.xacro
+[2.478s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/worlds
+[2.478s] [31mCMake Error at cmake_install.cmake:46 (file):
+[2.478s]   file INSTALL cannot find
+[2.478s]   "/home/akshat/maze_ws/src/maze_robot/src/maze_robot/meshes": No such file
+[2.478s]   or directory.
+[2.478s] 
+[2.478s] [0m
+[2.478s] -- Installing: /home/akshat/maze_ws/install/maze_robot/share/maze_robot/worlds/maze_world.sdf
+[2.478s] Invoked command in '/home/akshat/maze_ws/build/maze_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/akshat/bot_ws/install/bot_script:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/akshat/maze_ws/build/maze_robot
